@@ -14,7 +14,7 @@ export class Home extends React.Component {
 	}
 
 	componentDidMount = () => {
-		fetch("https://swapi.co/api/people/?format=json")
+		fetch("https://swapi.dev/api/people/?format=json")
 			.then(res => res.json())
 			.then(response => {
 				if (typeof response === typeof {}) {
@@ -25,7 +25,7 @@ export class Home extends React.Component {
 			})
 			.catch(error => console.error("Error:", error));
 
-		fetch("https://swapi.co/api/planets/?format=json")
+		fetch("https://swapi.dev/api/planets/?format=json")
 			.then(res => res.json())
 			.then(response => {
 				console.log("Success:", typeof response);

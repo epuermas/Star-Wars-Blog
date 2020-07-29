@@ -12,7 +12,7 @@ export class Details extends React.Component {
 	}
 
 	componentDidMount = () => {
-		fetch("https://swapi.co/api/people/" + this.props.match.params.theid + "?format=json")
+		fetch("https://swapi.dev/api/people/" + this.props.match.params.theid + "?format=json")
 			.then(res => res.json())
 			.then(response => {
 				//console.log("Success:", typeof response);
