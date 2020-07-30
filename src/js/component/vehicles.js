@@ -8,7 +8,7 @@ const vehicles = () => {
 			<table className="table table-bordered mt-2 pt-5">
 				<thead className="thead-dark">
 					<tr>
-						<th scope="col">vehicles</th>
+						<th scope="col">Vehicles</th>
 					</tr>
 				</thead>
 				<tbody className="tbody-dark">
