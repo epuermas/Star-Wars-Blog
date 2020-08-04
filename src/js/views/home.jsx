@@ -82,10 +82,10 @@ export class Home extends React.Component {
 	}
 }
 
-// Card.propTypes = {
-// 	name: PropTypes.string,
-// 	species: PropTypes.array,
-// 	gender: PropTypes.string,
-// 	eye_color: PropTypes.string,
-// 	hair_color: PropTypes.string
-// };
+CharacterCard.propTypes = {
+	name: PropTypes.string,
+	species: PropTypes.array,
+	gender: PropTypes.string,
+	eye_color: PropTypes.string,
+	hair_color: PropTypes.string
+};
